@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -43,9 +43,9 @@ github_username:  ssigner
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요, 저는 김종훈입니다. 저는 주니어 게임 개발자입니다. 유니티를 이용해 2D 게임을 개발하는 것에 관심이 있고, 기술적으로는 C#의 LINQ라이브러리를 활용한 데이터 쿼리를 이용해 효율적인 데이터 탐색에 관심이 있어 공부중입니다. 
-|
+
   1인 개발 및 여러 협업을 통해 <mark>깔끔한 코드 작성</mark>이 중요하다고 생각하게 되어, 현재는 초기 코드 작성에 있어 리팩토링을 고려한 코드를 작성하기 위해 노력중입니다.
-|
+
   뿐만 아니라, <mark>오픈소스</mark> 기능들을 활용해 하나의 새로운 기능을 만드는 것 또한 흥미가 있습니다.
 
   기술: <mark>Unity2D</mark> and <mark>C#</mark>
@@ -139,4 +139,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+- jekyll-seo-tag
