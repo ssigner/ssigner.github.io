@@ -1,36 +1,42 @@
 # Site
-repository: ssigner/ssigner.github.io
+repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: 김종훈
-title: 주니어 게임 개발자
-email: huni00807@pusan.ac.kr
-website: https://github.com/ssigner
+name: Brett Harris
+title: Senior Network System Administrator
+email: brett.h@email.co.uk
+website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  ssigner
+twitter_username: facespics
+github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
+instagram_username: jameswgrant
+linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
+youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
-
-- title: blog
-  icon: fas fa-globe
-  url: https://ssigner.tistory.com/
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -40,92 +46,71 @@ github_username:  ssigner
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpeg
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요, 저는 김종훈입니다. 저는 주니어 게임 개발자입니다. 유니티를 이용해 2D 게임을 개발하는 것에 관심이 있고, 기술적으로는 C#의 LINQ라이브러리를 활용한 데이터 쿼리를 이용해 효율적인 데이터 탐색에 관심이 있어 공부중입니다. 
+  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  1인 개발 및 여러 협업을 통해 <mark>깔끔한 코드 작성</mark>이 중요하다고 생각하게 되어, 현재는 초기 코드 작성에 있어 리팩토링을 고려한 코드를 작성하기 위해 노력중입니다.
-
-  뿐만 아니라, <mark>오픈소스</mark> 기능들을 활용해 하나의 새로운 기능을 만드는 것 또한 흥미가 있습니다.
-
-  기술: <mark>Unity2D</mark> and <mark>C#</mark>
+  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: CJ대한통운 미래기술 챌린지 2023
-        link: https://github.com/Box-size
+        title: Super awesome project
+        link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: https://github.com/Box-size
+            url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          1번과제 스마트폰 활용한 상품 체적 측정 진행, 최종 결과 : 본선 진출
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          <mark>AI</mark>를 활용한 <mark>특정 이미지 인식</mark>, 카메라 캘리브레이션을 통한 카메라 파라미터로 <mark>이미지 분석</mark>, <mark>좌표계 변환</mark> (2D -> 3D)을 통해, 2D이미지 상의 박스 이미지의 실제 크기를 구해내는 어플입니다.
-          이 프로젝트를 통해 AI학습, 카메라 원리, 이미지 분석, 이미지 좌표계에 대해 공부했습니다.
-
-          박스 이미지 추출에는 AI이미지 분석 오픈소스인 <mark>YOLOv5</mark>를 사용했고, 주된 이미지 분석 작업은 파이썬의 <mark>OpenCV</mark> 라이브러리를 활용했습니다.
-
-          저의 첫 협업 프로젝트이고, 팀장으로 프로젝트를 진행했으며 Github Organization을 통한 협업, git branch와 git commit 관리, pull request를 통한 코드 리뷰, 업무 분배, 일정 조율까지 많은 것을 경험하고 배웠습니다.
-
-      - layout: top-middle
-        title: 픽셀디펜스 
-        link: https://store.onstove.com/ko/games/2681?token=6564cd727946b7fcddf08803b88972368a9dd056
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: images/image.png
-            url: https://store.onstove.com/ko/games/2681?token=6564cd727946b7fcddf08803b88972368a9dd056
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          부산 콘텐츠 아카데미에서 열린 "2023 부산게임아카데미 예비개발자 프로젝트 개발교육"을 수강하며 개발한 1인개발 게임
-        description: | # this will include new lines to allow paragraphs
-          <mark>Unity 2D</mark>를 이용해, <mark>C#</mark>스크립트로 개발을 했고, 에셋은 <mark>itch.io</mark>에서 적절한 리소스들을 구했습니다. 현재 출시 단계 과정을 위해 Stove 인디와 계약중이며, 12월 중으로 출시 예정입니다.
-
-          1인 개발로 진행했고, 진행 과정에서 게임 기획, 리소스 활용, 데이터 관리, 게임 빌드, 테스트 및 밸런스 조정, 출시까지 게임 개발 프로세스에 있어 전반적인 과정을 경험하고 공부할 수 있었습니다. 
-          
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 2023 부산게임아카데미 예비개발자 프로젝트 개발교육
-        link: https://bit.ly/BCA_trainee
+        title: The Boring Company
+        link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: 교육 수강생
-        caption: 2023년 9월 ~ 현재
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
         quote: >
-          게임 개발자를 희망하는 주니어 개발자들 대상으로 진행한 게임 개발자 교육 프로그램
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          게임 출시를 위한 모든 단계를 경험하고 공부할 수 있었고, 현직 시니어 개발자에게 배우면서 깔끔한 코드작성, 코드 리팩토링, 데이터 관리 및 자동화, 현직자는 어떻게 게임 개발을 진행하는지 배울 수 있었습니다.
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Pusan National University
-        caption: 2019 ~ 현재
-        sub_title: 공과대학 정보컴퓨터공학부
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
         quote: >
-          부산의 지방거점국립대학교
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          현재 재학중이며, 자료구조, 컴퓨터 알고리즘, 컴퓨터 구조, 운영체제 등 여러 CS전공 과목에 대해 기본 지식을 배우고 있습니다.
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          또한 여러 개인, 팀 프로젝트를 과목을 수강하며 진행했고, 이 과정에서 협업의 중요성에 대해 배웠습니다.
-          
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      게임 개발 뿐만 아니라, 이미지 분석 및 처리에도 흥미가 있으며, 이미지 분석을 활용한 게임 개발을 계획중에 있습니다.
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
