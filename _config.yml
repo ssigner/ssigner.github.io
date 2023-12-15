@@ -82,19 +82,19 @@ content:
           저의 첫 협업 프로젝트이고, 팀장으로 프로젝트를 진행했으며 Github Organization을 통한 협업, git branch와 git commit 관리, pull request를 통한 코드 리뷰, 업무 분배, 일정 조율까지 많은 것을 경험하고 배웠습니다.
       - layout: top-middle
         title: 픽셀디펜스 
-        link: https://store.onstove.com/ko/games/2681?token=6564cd727946b7fcddf08803b88972368a9dd056
+        link: https://store-client.onstove.com/ko/games/2681
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: images/image.png
-            url: https://store.onstove.com/ko/games/2681?token=6564cd727946b7fcddf08803b88972368a9dd056
+            url: https://store-client.onstove.com/ko/games/2681
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           부산 콘텐츠 아카데미에서 열린 "2023 부산게임아카데미 예비개발자 프로젝트 개발교육"을 수강하며 개발한 1인개발 게임
         description: | # this will include new lines to allow paragraphs
-          <mark>Unity 2D</mark>를 이용해, <mark>C#</mark>스크립트로 개발을 했고, 에셋은 <mark>itch.io</mark>에서 적절한 리소스들을 구했습니다. 현재 출시 단계 과정을 위해 Stove 인디와 계약중이며, 12월 중으로 출시 예정입니다.
+          <mark>Unity 2D</mark>를 이용해, <mark>C#</mark>스크립트로 개발을 했고, 에셋은 <mark>itch.io</mark>에서 적절한 리소스들을 구했습니다. 현재 출시되어 스토브인디에서 판매중입니다.
 
           1인 개발로 진행했고, 진행 과정에서 게임 기획, 리소스 활용, 데이터 관리, 게임 빌드, 테스트 및 밸런스 조정, 출시까지 게임 개발 프로세스에 있어 전반적인 과정을 경험하고 공부할 수 있었습니다. 
 
