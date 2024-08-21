@@ -128,9 +128,11 @@ content:
         quote: >
           부산의 지방거점국립대학교
         description: | # this will include new lines to allow paragraphs
-          현재 재학중이며, 자료구조, 컴퓨터 알고리즘, 컴퓨터 구조, 운영체제 등 여러 CS전공 과목에 대해 기본 지식을 배우고 있습니다.
+          현재 재학중이며, 자료구조, 컴퓨터 알고리즘, 컴퓨터 구조, 데이터 통신, 컴퓨터 네트워크, 소프트웨어공학, 운영체제 등 여러 CS전공 과목에 대해 기본 지식을 배우고 있습니다.
 
           또한 여러 개인, 팀 프로젝트를 과목을 수강하며 진행했고, 이 과정에서 협업의 중요성에 대해 배웠습니다.
+
+          전공평점 : 3.46 / 4.5
 
   - title: A Little More About Me
     layout: text
